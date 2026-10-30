@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         User::updateOrCreate(
              ['email' => 'dosen@telkomuniversity.ac.id'],
             [
-                'name' => 'Dewi Marini Umi Atmaja, S.Kom., M.Kom.',
+                'name' => 'Tiara Rahmania Hadiningrum',
                 'password' => Hash::make('admin123'),
                 'role' => 'dosen',
                 'nomor_induk' => '18087690188',
@@ -27,10 +27,10 @@ class DatabaseSeeder extends Seeder
          User::updateOrCreate(
             ['email' => 'mahasiswa@telkomuniversity.ac.id'],
             [
-                'name' => 'Aidan elsarizi',
+                'name' => 'MELINDA',
                 'password' => Hash::make('admin123'),
                 'role' => 'mahasiswa',
-                'nomor_induk' => '102042500104',
+                'nomor_induk' => '102042500020',
             ]
         );
     }
